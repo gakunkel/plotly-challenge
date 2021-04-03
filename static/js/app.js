@@ -23,8 +23,8 @@ function buildMetaData(sample) {
 }
 
 
-// Function for building charts
-function buildChart(sample){
+// Function for building the two charts (bubble & bar)
+function buildChart(sample) {
     d3.json("samples.json").then(function(data){
         var samples = data.samples;
         var resultsArray = samples.filter(function(data){
