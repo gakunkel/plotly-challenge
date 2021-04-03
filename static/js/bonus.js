@@ -56,10 +56,10 @@ function buildGauge(wfreq) {
     ];
 
     var layout = {
-        shape: [
+        shapes: [
             {
                 type: "path",
-                path:path,
+                path: path,
                 fillcolor: "850000",
                 line: {
                     color: "850000"
